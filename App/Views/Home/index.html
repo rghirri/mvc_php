@@ -1,0 +1,18 @@
+{% extends 'base.html' %} {% block title %}Home{% endblock %} {% block body %}
+
+<p>Hello from a Twig template, {{ name }}!</p>
+
+<ul>
+  {% for colour in colours %}
+  <li>{{ colour }}</li>
+  {% endfor %}
+</ul>
+
+{% if current_user %}
+        Hello {{ current_user.name }}.
+
+        <a href="/logout">Log out</a>
+    {% else %}
+        <a href="/signup/new">Sign up</a> or <a href="/login">log in</a>.
+    {% endif %}
+   {% endblock %}

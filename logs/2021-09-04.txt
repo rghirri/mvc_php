@@ -1,0 +1,42 @@
+[04-Sep-2021 11:44:34 Etc/GMT+0] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb\public\index.php(40): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb\Core\Router.php' on line 133
+[04-Sep-2021 11:44:34 Etc/GMT+0] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb\public\index.php(40): Core\Router->dispatch('favicon.ico')
+#1 {main}
+Thrown in 'C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb\Core\Router.php' on line 133
+[04-Sep-2021 12:12:59 Etc/GMT+0] Uncaught exception: 'Exception' with message 'Method neeAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb\Core\Router.php(121): Core\Controller->__call('nee', Array)
+#1 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb\public\index.php(40): Core\Router->dispatch('posts/nee')
+#2 {main}
+Thrown in 'C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb\Core\Controller.php' on line 52
+[04-Sep-2021 12:13:10 Etc/GMT+0] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb\public\index.php(40): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb\Core\Router.php' on line 130
+[04-Sep-2021 14:13:41 Etc/GMT+0] Uncaught exception: 'Exception' with message 'Controller class App\Controllers\Sinup not found'
+Stack trace: #0 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\public\index.php(40): Core\Router->dispatch('sinup/new')
+#1 {main}
+Thrown in 'C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\Core\Router.php' on line 127
+[04-Sep-2021 16:02:59 Etc/GMT+0] Uncaught exception: 'Error' with message 'Class 'App\Controllers\User' not found'
+Stack trace: #0 [internal function]: App\Controllers\Signup->createAction()
+#1 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\Core\Controller.php(48): call_user_func_array(Array, Array)
+#2 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\Core\Router.php(121): Core\Controller->__call('create', Array)
+#3 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\public\index.php(40): Core\Router->dispatch('signup/create')
+#4 {main}
+Thrown in 'C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\App\Controllers\Signup.php' on line 31
+[04-Sep-2021 16:03:24 Etc/GMT+0] Uncaught exception: 'Error' with message 'Class 'App\Controllers\User' not found'
+Stack trace: #0 [internal function]: App\Controllers\Signup->createAction()
+#1 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\Core\Controller.php(48): call_user_func_array(Array, Array)
+#2 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\Core\Router.php(121): Core\Controller->__call('create', Array)
+#3 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\public\index.php(40): Core\Router->dispatch('signup/create')
+#4 {main}
+Thrown in 'C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\App\Controllers\Signup.php' on line 31
+[04-Sep-2021 16:07:17 Etc/GMT+0] Uncaught exception: 'Error' with message 'Class 'App\Controllers\User' not found'
+Stack trace: #0 [internal function]: App\Controllers\Signup->createAction()
+#1 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\Core\Controller.php(48): call_user_func_array(Array, Array)
+#2 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\Core\Router.php(121): Core\Controller->__call('create', Array)
+#3 C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\public\index.php(40): Core\Router->dispatch('signup/create')
+#4 {main}
+Thrown in 'C:\Users\rghir\Desktop\study folder\php\php_mvc_ggb_login\App\Controllers\Signup.php' on line 31
